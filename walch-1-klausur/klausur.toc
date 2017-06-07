@@ -1,0 +1,13 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Kurzfragen}{2}{section.1}
+\contentsline {section}{\numberline {2}Lange Dr\"ahte}{2}{section.2}
+\contentsline {section}{\numberline {3}Kapazit\"at}{3}{section.3}
+\contentsline {section}{\numberline {4}Bildladung}{3}{section.4}
+\contentsline {section}{\numberline {5}Elektrischer Quadrupol}{3}{section.5}
+\contentsline {section}{\numberline {6}Magnetfeld einer Leiteranordnung}{4}{section.6}
+\contentsline {section}{\numberline {7}Lichtquelle}{4}{section.7}
+\contentsline {section}{\numberline {8}Lorentz-Transformation}{5}{section.8}
+\contentsline {section}{\numberline {9}Maxwellscher Spannungstensor (Modul IIIa)}{5}{section.9}
+\contentsline {section}{\numberline {10}Aberration (Modul IIIa)}{5}{section.10}
+\contentsline {section}{\numberline {11}Elektrische Dipolfelder (Modul IIIa)}{6}{section.11}
+\contentsline {section}{\numberline {12}Kurzfragen 2 (Modul IIIa)}{6}{section.12}

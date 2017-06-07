@@ -1,0 +1,209 @@
+</W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Klassische Theoretische Physik 2 (WS 2013/14) | Simon Trebst</title>
+	<link rel="stylesheet" href="../css/tilted.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="../shadowbox/shadowbox.css">
+	<script type="text/javascript" src="../shadowbox/shadowbox.js"></script>
+	<script type="text/javascript">
+		Shadowbox.init();
+	</script>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+    
+   <!-- header -->
+       <div id="header">
+        <div id="headercontent">
+            <span class="light">Computational </span>
+            <span class="dark">Condensed Matter Physics</span><br/>
+            <a href="http://www.thp.uni-koeln.de">Institute for Theoretical Physics</a> |
+            <a href="http://www.uni-koeln.de">University of Cologne</a>
+        </div>
+    </div>
+
+
+    
+    <div id="container">
+
+   <!-- navigation bar -->
+           <div id="navigation">
+            <ul>
+                <li><a href="http://www.thp.uni-koeln.de/trebst/index.shtml">Group</a></li>
+                <li><a class="sub" href="http://www.thp.uni-koeln.de/trebst/members.shtml">members</a></li>
+                <br/>
+                <li><a href="http://www.thp.uni-koeln.de/trebst/research.shtml">Research</a></li>
+                <li><a class="sub" href="http://www.thp.uni-koeln.de/trebst/publications.shtml">publications</a></li>
+                <li><a class="sub" href="http://www.thp.uni-koeln.de/trebst/talks.shtml">talks</a></li>
+                <li><a class="sub" href="http://www.thp.uni-koeln.de/trebst/workshops.shtml">workshops</a></li>
+                <br/>
+                <li><a href="http://www.thp.uni-koeln.de/trebst/teaching.shtml">Teaching</a></li>
+                <li><a class="sub" href="http://www.thp.uni-koeln.de/trebst/thesisprojects.shtml">thesis projects</a></li>
+                <br/>
+                <li><a href="http://www.thp.uni-koeln.de/trebst/seminars.shtml">Seminars</a></li>
+                <li><a class="sub" href="http://www.thp.uni-koeln.de/trebst/cmtseminar.shtml">cmt seminar</a></li>
+                <li><a class="sub" href="http://www.thp.uni-koeln.de/trebst/groupseminar.shtml">group seminar</a></li>
+                <br/>
+                <li><a href="http://www.thp.uni-koeln.de/trebst/computing.shtml">Computing</a></li>
+                <li><a href="http://www.thp.uni-koeln.de/trebst/contact.shtml">Contact</a></li>
+                <li class="spacer"></li>
+                <li class="external"><a href="http://www.thp.uni-koeln.de/">thp</a></li>
+                <li class="external"><a href="http://qm2.uni-koeln.de">QM<sup>2</sup></a></li>
+                <li class="external"><a href="http://www.sfbtr12.uni-koeln.de/">SFB | TR 12</a></li>
+            </ul>
+        </div>
+
+
+
+  <div id="content">
+  <!-- Here goes the content -->
+          
+  <h1>Klassische Theoretische Physik II</h1>
+
+  Di, 10.00 - 11.30 | HS II  <img class="right" src="../img/KTP2.jpg" width="40%"><br/>
+  Do, 12.00 - 13.30 | HS III <br/><br/>
+
+  <br/><h2>&Uuml;berblick</h2>
+  Gegenstand der Vorlesung sind weiterf&uuml;hrende Kapitel der Elektrodynamik
+und der klassischen Mechanik. In der Elektrodynamik werden dabei u.a.
+dynamische Phänomene, wie elektromagnetische Wellen, behandelt; in der
+klassischen Mechanik wird die Lagrangesche und die Hamiltonsche
+Formulierung eingef&uuml;hrt.
+<br/></br/>
+
+   <h2>&Uuml;bungen</h2>
+   Die &Uuml;bungen finden am Donnerstag statt; die <b>Einteilung der &Uuml;bungsgruppen</b> finden Sie in dieser <a href="KTP2-2013/Gruppeneinteilung.pdf"><b>&Uuml;bersicht</b></a>.<br/>
+ 
+<br/></br/>
+
+   <b>&Uuml;bungsbl&auml;tter</b>
+   <ul>
+     <li><a href="KTP2-2013/KTP2_Blatt0.pdf">&Uuml;bungsblatt 0</a>: 
+         <small>Maxwellgleichungen, Kontinuit&auml;tsgleichung, Spiegelladungen, Helmholtzspulen</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt1.pdf">&Uuml;bungsblatt 1</a>:
+         <small>Rotierendes Rad, Dickes Kabel, Kugelwellen, Eindimensionale Wellengleichung</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt2.pdf">&Uuml;bungsblatt 2</a>:
+         <small>Vektoridentit&auml;ten, Elliptisch polarisiertes Licht, Stehende elektromagnetische Welle, Satz von Poynting</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt3.pdf">&Uuml;bungsblatt 3</a>:
+         <small>Gau&szlig;integrale, Wellenpaket, Energiestrom, Strahlungsdruck</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt4.pdf">&Uuml;bungsblatt 4</a>:
+         <small>Maxwell'scher Spannungstensor, Drehimpuls, Levi-Civita-Tensor, Eichfelder</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt5.pdf">&Uuml;bungsblatt 5</a>:
+         <small>Fouriertransformation, Bestimmung der Greenfunktion durch zweifache Fouriertransformation (in zwei Teilen)</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt6.pdf">&Uuml;bungsblatt 6</a>:
+         <small>Helmholtz-Gleichung, Multipolentwicklung, Elektrische Dipolfelder, Magnetische Dipolfelder</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt7.pdf">&Uuml;bungsblatt 7</a>:
+         <small>Sonnenlicht, Antenne, Nabla- und Laplaceoperator in Zylinderkoordinaten, Instabilit&auml;t des klassichen Atoms</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt8.pdf">&Uuml;bungsblatt 8</a>:
+         <small>Makroskopische ED I+II, Dielektrikum im Kondensator, Dispersion</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt9.pdf">&Uuml;bungsblatt 9</a>:
+         <small>Konduktivit&auml;t, Skin-Effekt, Galilei-Varianz einer Wellengleichung, Nicht inertiale Systeme</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt10.pdf">&Uuml;bungsblatt 10</a>:
+         <small>Gruppeneigenschaften der Lorentz-Transformation, Lorentz-Invarianz der Wellengleichung, L&auml;ngenkontraktion, Raum- und zeitartige Abst&auml;nde</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt11.pdf">&Uuml;bungsblatt 11</a>:
+         <small>Zwillingsparadox, Relativistischer Dopplereffekt, Raum-Zeit Diagramme, GPS</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt12.pdf">&Uuml;bungsblatt 12</a>:
+         <small>Compton-Effekt, Lorentz-Tranformation des Feldst&auml;rketensors, Kovariante Formulierung der Elektrodynamik, Tscherenkow Strahlung</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt13.pdf">&Uuml;bungsblatt 13</a>:
+         <small>Brachistochrone, Seifenhaut, Entropie, Isoperimetrisches Problem</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt14.pdf">&Uuml;bungsblatt 14</a>:
+         <small>Doppelpendel, Bewegung im Zentralfeld, Gekoppelte Schwingungen, Atwoods Maschine</small></li>
+     <li><a href="KTP2-2013/KTP2_Blatt15.pdf">&Uuml;bungsblatt 15</a>:
+         <small>Relativistisches Teilchen, Poissonklammern, Freies Teilchen, Harmonischer Oszillator, Perle auf rotierendem Draht
+                [<a href="KTP2-2013/KTP2_Blatt15_Loesung.pdf">L&ouml;sungshilfen</a>]</small></li>
+
+
+
+
+</ul>
+   <br/></br/>
+
+  <h2>Syllabus / Vorlesungen</h2>
+  <ul>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche1.pdf">Woche 1</a>:
+         <small>Maxwell Gleichungen, Wellengleichung, ebene Wellen</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche2.pdf">Woche 2</a>:
+         <small>Polarisation, endliche Wellenpakete, Erhaltungss&auml;tze und Kontinuit&auml;tsgleichungen</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche3.pdf">Woche 3</a>:
+         <small>Poynting-Vektorfeld/Energiestromdichte, Impulssatz, Maxwellscher Spannungstensor, skalares und Vektorpotential</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche4.pdf">Woche 4</a>:
+         <small>Eichtransformationen, Lorenzeichung, L&ouml;sung der Maxwell-Gleichungen f&uuml;r Potentiale, Greensche Funktionen</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche5.pdf">Woche 5</a>:
+         <small>Helmholtz-Gleichung, retardierte und avancierte Greensche Funktionen, Strahlungsph&auml;nomene</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche6.pdf">Woche 6</a>:
+         <small>Dipolstrahlung</small></li>
+
+    <center>
+      <a href="CompPhys-2013/img/yee_vischen_abs.mp4" rel="shadowbox[vid];height=600;width=1200" title="Dipolantenne (Woche 6)">
+		<img src="CompPhys-2013/img/yee_vischen_play.jpg"/></a>
+      <a href="CompPhys-2013/img/yee_vischen_ez.mp4" rel="shadowbox[vid];height=660;width=736" title="Dipolantenne (Woche 6)">
+                <img src="CompPhys-2013/img/yee_vischen2_play.jpg"/></a>
+   </center>
+
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche7.pdf">Woche 7</a>:
+         <small>Makroskopische Elektrodynamik</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche8.pdf">Woche 8</a>:
+         <small>Elektromagnetische Wellen in Materie</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche9.pdf">Woche 9</a>:
+         <small>Inertialsysteme, Galilei-Invarianz, Lorentz-Transformation</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche10.pdf">Woche 10</a>:
+         <small>Spezielle Lorentz-Transformation, L&auml;ngenkontraktion, Zeitdilatation, relativistische Mechanik</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche11.pdf">Woche 11:</a> <small>Kovariante Formulierung der Elektrodynamik</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche12_13.pdf">Woche 12:</a> <small>Analytische Mechanik, Zwangsbedingungen, Variationsprinzipien</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche12_13.pdf">Woche 13:</a> <small>Variationsrechnung (mit Nebenbedingungen), Euler-Lagrange Gleichung</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche14.pdf">Woche 14:</a> <small>Lagrange Mechanik, Noether Theorem, Legendre-Transformation</small></li>
+     <li><a href="http://www.thp.uni-koeln.de/trebst/Lectures/Scripts/KTP2-2013/KTP2-Woche15.pdf">Woche 15:</a> <small>Hamilton-Formalismus, Poisson-Klammern, Phasenraum</small></li>
+
+
+
+   </ul>
+   <br/></br/>
+
+
+  <h2>Literatur</h2>
+  <ul>
+    <li>Fliessbach, Elektrodynamik. Lehrbuch zur Theoretischen Physik II (Spektrum)<br/>
+        <small><a href="http://link.springer.com/book/10.1007/978-3-8274-3036-6/page/1">ebook (UzK intern)</a></small>
+    </li>
+    <li>Jackson, Klassische Elektrodynamik (Gruyter)</li>
+    <li>Fliessbach, Mechanik. Lehrbuch zur Theoretischen Physik I (Spektrum)<br/>
+        <small><a href="http://link.springer.com/book/10.1007/978-3-8274-2188-3/page/1">ebook (UzK intern)</a></small>
+   </li>
+    <li>Scheck, Theoretische Physik 1, Mechanik (Springer)<br/> 
+        <small><a href="http://link.springer.com/book/10.1007/978-3-540-71379-1/page/1">ebook (UzK intern)</a></small>
+    </li>
+   </ul>
+<br/>
+
+   <h2>Klausuren</h2>
+   Klausur: Freitag, <b>21. Februar 2014</b> | 14.30 - 17.30 | HS I<br/>
+   Nachklausur: Donnerstag, <b>27. M&auml;rz 2014</b> | 9.00 - 12.00 | HS I<br/>
+<br/>
+
+
+  <h2>Mailing-Liste</h2>
+  Wir haben f&uuml;r alle TeilnehmerInnen der Vorlesung eine <a href="https://lists.uni-koeln.de/mailman/listinfo/ktp2-2013">Mailing-Liste</a> eingerichtet, &uuml;ber welche wir weiterf&uuml;hrende
+  Informationen zu Vorlesung, &Uuml;bungen und &Uuml;bungsbetrieb verschicken werden:
+
+  <ul>
+     <a href="mailto:ktp2-2013@uni-koeln.de">ktp2-2013@uni-koeln.de</a> 
+  </ul>
+  <br/>
+
+  Wir bitten alle Studierenden, sich auf dieser Mailing-Liste <a href="https://lists.uni-koeln.de/mailman/listinfo/ktp2-2013">einzutragen</a>.
+  <br/><br/>
+
+  <h2>Voraussetzungen</h2>
+  Formal keine. Ein Verst&auml;ndnis der Inhalte der Vorlesung Klassische Theoretische Physik I
+  ist selbstverst&auml;ndlich hilfreich.
+<br/></br/>
+
+
+
+  </div>
+
+</div>
+</body>
+</html>

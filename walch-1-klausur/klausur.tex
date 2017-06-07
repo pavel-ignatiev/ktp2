@@ -1,0 +1,222 @@
+ \documentclass[12pt, a4paper]{article}
+\usepackage{geometry}
+\geometry{a4paper,left=2.0cm,right=2.0cm, top=2.5cm, bottom=3.0cm}
+\usepackage[latin1]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{floatflt}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{subfig}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{extarrows}
+\usepackage{enumerate}
+\usepackage{mathabx}
+\usepackage[labelfont=bf]{caption}
+\usepackage{xspace}
+\usepackage{dsfont}
+\usepackage{pifont}
+\usepackage{cite}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{mhchem}
+\usepackage{wrapfig}
+\setlength{\headheight}{15pt}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentrierte Spalten mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbÃ¼ndig mit Breitenangabe
+\pagestyle{fancy}
+
+\lhead{\leftmark} %Textfeld links
+\rhead{} %Textfeld rechts
+
+\setlength{\skip\footins}{10mm}
+\usepackage{lastpage}
+\cfoot{Seite \thepage /\pageref{LastPage}}
+\usepackage{hyperref}
+\hypersetup {
+colorlinks,
+urlcolor=blue,
+linkcolor=blue
+}
+
+\newcommand{\footnoteremember}[2]{%
+  \footnote{#2\label{#1}}
+  \newcounter{#1}
+  \setcounter{#1}{\value{footnote}}%
+}
+\newcommand{\footnoterecall}[1]{%
+  \hyperref[#1]{\footnotemark[\value{#1}]}%
+}
+
+\newcommand{\element}[2]{%
+	$^{#1}$\text{#2}
+}
+
+\newcommand{\ele}[3]{
+	$^{#1}_{#2}$#3
+}
+
+\newenvironment{redtext}{\color{red}}{\ignorespacesafterend}
+
+\addto\captionsngerman{\renewcommand{\figurename}{\textbf{Abb.}}}
+
+\begin{document}
+\singlespacing
+\parindent0pt
+\onehalfspacing
+
+%Titelseite
+
+\begin{titlepage}
+
+\setlength{\unitlength}{1pt}
+
+\begin{center}
+\hbox{}
+
+{\hrule height 2pt \vspace{1cm}}
+{
+{\huge\textsc{Klassische Feldtheorie}\\
+               \par}
+\vspace{1cm}
+{\hrule height 2pt}
+
+\vskip 4cm
+1. Klausur
+
+\vspace{1cm}
+
+03.03.2017
+
+\vspace{1cm}
+
+Prof. Stefanie Walch
+
+}
+
+\vfill
+
+\end{center}
+
+
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Kurzfragen}
+\begin{enumerate}
+\item Betrachte Laplace-Gleichung in Zylinderkoordinaten. Wie heißen die Funktionen, die die Radialkomponente der Gleichung lösen? (der Name genügt)
+\item Betrachten Sie eine zylinderförmige Spule, die sich im Vakuum befindet und die eine magnetische Induktion erzeugt. Erläutern Sie, wie sich $H$ sowie as magnetische Feld $B$ ändern, wenn man  im Inneren der Spule ein Material mit der Permeabilitätszahl $\mu$ einbringt. Betrachten Sie dabei sowohl $H$ und $B$ in der Spule, d. h. im Material, als auch außerhalb der Spule, d. h. weiterhin im Vakuum. Erläutern Sie kurz die zugrunde liegenden Prinzipien (Formeln).
+\item Wie lautet allgemein die Energiedichte des elektromagnetischen Feldes?
+\item Betrachten Sie einen Stab, der in seinem Ruhesystem die Länge $l$ besitzt und entlang der x-Achse ausgerichtet ist. Wie lang erscheint der Stab einem Beobachter, wenn der Stab sich relativ zu diesem mit der Geschwindigkeit $v$
+\begin{itemize}
+\item entlang der x-Achse bewegt
+\item entlang der y-Achse bewegt?
+\end{itemize}
+\item Wie ist der relativistische Vierer-Impuls definiert?
+\item Wie lassen sich das elektrische und das magnetische Feld aus dem [h!elektrischen Skalarpotential $\phi$ und dem Vektorpotential $A$ bestimmen?
+\end{enumerate}
+
+\section{Lange Drähte}
+Betrachten Sie zwei unendlich lange, parallel angeordnete Drähte im Abstand d, die die gleiche Ladungsdichte pro Längeneinheit $q$ besitzen.
+\begin{enumerate}
+\item Berechnen Sie zunächst das elektrische Feld mit Hilfe des Gaußschen Satzes für einen Draht.
+\item Berechnen Sie nun das gesamte elektrische Feld der Anordnung. Welches grundlegende physikalische Prinzip wenden Sie dabei an?
+\item Berechnen Sie das Potential der Anordnung.
+\end{enumerate}
+
+\newpage
+
+\section{Kapazität}
+Berechnen Sie die Kapazität zweier konzentrisch angeordneter Kugelschalen mit den Radien $R_1$ und $R_2$. Nehmen Sie an, dass die äußere der beiden Kugelschalen geerdet sei und sich die Anordnung im Vakuum befinde. 
+
+\section{Bildladung}
+\begin{enumerate}
+\item Erläutern Sie das Prinzip der Bildladungsmethode anhand einer Ladung, die sich vor einer unendlich ausgedehnten, leitenden, geerdeten Platte befindet (Skizze!). 
+\item Wie lautet die Green-Funktion für diesen Fall, die die dazugehörige Poisson-Gleichung löst? Verwenden Sie zur Erläuterung die zuvor angefertigte Skizze. 
+\end{enumerate}
+
+\section{Elektrischer Quadrupol}
+Betrachten Sie eine Ladungsverteilung, die aus 4 Punktladungen besteht. Zwei Punktladungen mit der Ladung $+q$ befinden sich an den Stellen (1,0,0) sowie (-1,0,0), zwei weitere Punktladungen mit der Ladung $-q$ bei (0,1,0) und (0,-1,0).
+\begin{enumerate}
+\item Geben Sie zunächst die Ladungsverteilung an.
+\item Berechnen Sie das Dipolmoment $\vec{d}$ der Ladungsvertteilung.
+\item Berechnen Sie das Quadrupolmoment
+\item Berechnen Sie mit der unten angegebenen Näherung das Potential für die Ladungsverteilung.
+\end{enumerate}
+Hinweise:
+\begin{align}
+\textrm{Quadrupolmoment} \quad Q_{ij} = \int d^3 x (3x_i x_j - r^2 \delta_{ij}) \rho(\vec{x}) \\
+\textrm{Potential} \quad \phi(\vec{x}) = \frac{q_{gesamt}}{r} + \frac{\vec{d} \cdot \vec{x}}{r^3} + \frac{1}{2}\sum_{i,j}Q_{ij}\frac{x_i x_j}{r^5} + ...
+\end{align}
+wobei $r$ der Betrag des Vektors $\vec{x}$ ist.
+\newpage
+\section{Magnetfeld einer Leiteranordnung}
+\begin{wrapfigure}{l}{0.25\textwidth}
+\centering
+\includegraphics[width=0.25\textwidth]{a6.png}
+\end{wrapfigure}
+Betrachten Sie die Leiteranordnung in Graphik 1. Diese bestehe aus einem Dreiviertelkreis mit Radius $R$ sowie zwei radial ausgerichteten, geraden Drähten, die sich im Vakuum befinden. Die gesamte Anordnung führe den Strom $I$.
+\begin{enumerate}
+\item Berechnen Sie das Magnetfeld im Mittelpunkt $P$ des Dreiviertelkreises. Wie lautet der Name des Gesetzes, das Sie dazu verwendet haben?
+\item Vergleichen Sie das Ergebnis mit dem für eine kreisförmige Leiterschleife, die den gleichen Strom $I$ führt. 
+\end{enumerate}
+\section{Lichtquelle}
+Betrachten Sie eine punktförmige Lichtquelle im Ursprung, die nur während eines kurzen Zeitintervalls $\Delta t$ um die Zeit $t = 0$ herum Strahlung aussendet. Diese breitet sich gemäß der Wellengleichung
+\begin{align}
+\Delta \psi (\vec{x}, t) = \frac{1}{c^2} \frac{\partial^2\psi}{\partial t^2} + 4 \pi f(\vec{x}, t)
+\end{align}
+aus. 
+\begin{enumerate}
+\item Geben Sie die Quellfunktion f der Lichtquelle mit Hilfe der Theta-Funktion (auch Heaviside-Funktion genannt) an.
+\item Geben Sie die Greensche Funktion für diesen Fall an. Wie lautet der Name dieser speziellen Green-Funktion?
+\item Berechnen Sie die Strahlung $\psi(\vec{x}, t)$, die zu jedem beliebigen Ort- und Zeitpunkt beobachtet wird. Diskutieren Sie das Ergebnis kurz. 
+\end{enumerate}
+\newpage
+\section{Lorentz-Transformation}
+Betrachten Sie ein Objekt $O$, das sich mit der Geschwindigkeit $\vec{v} = (v_x, v_y)$ im Inertialsystem $L$ bewegt. Zur Zeit $t = 0$ befindet sich das Objekt im Ursprung. Das Inertialsystem $L^{'}$ bewegt sich relativ zu $L$ mit der Geschwindigkeit $(v_{L,x},0)$, d. h. entlang der $x$-Richtung. Hinweis: In dieser Aufgabe können Sie die $z$-Komponente in den Rechnungen vernachlässigen. 
+\begin{enumerate}
+\item Wie lautet die Matrix für die entsprechende Lorentz-Transformation, um von $L$ nach $L^{'}$ zu wechseln?
+\item Welche Koordinaten hat das Objekt $O$ in $L^{'}$ zu jedem beliebigen Zeitpunkt? Berechnen Sie dazu zunächst die Koordinaten in $L$ und transformieren Sie diese dann nach $L^{'}$.
+\item Überprüfen Sie die Korrektheit des Ergebnisses für die Koordinaten, indem Sie den nicht-relativistischen Grenzfall betrachten. 
+\item Wie lautet die Vierer-Geschwindigkeit des Objekts $O$ in $L$? Berechnen Sie damit (und mit Hilfe der Lorentz-Trafo) dessen Vierer-Geschwindigkeit in $L^{'}$.
+\end{enumerate}
+\section{Maxwellscher Spannungstensor (Modul IIIa)}
+Berechnen Sie den Feldstärketensor für einen elektrischen Dipol $\vec{d}$, der entlang der $y$-Achse ausgerichtet ist und im Ursprung sitzt.\\
+Hinweis: Falls das elektrische Feld eines Dipols unbekannt ist, kann man es  auch aus dem Potential, welches in der Aufgabe 5 gegeben ist, herleiten. 
+\section{Aberration (Modul IIIa)}
+Erläutern Sie den Effekt der Aberration (Formel!) einer sich mit hoher (relativistischer) Geschwindigkeit auf einen Beobachter zubewegenden Lichtquelle. 
+\newpage
+\section{Elektrische Dipolfelder (Modul IIIa)}
+Betrachten Sie die Felder eines oszillierenden, elektrischen Dipols $\vec{d}$:
+\begin{align}
+\vec{B} = k^2 \frac{e^{ikr}}{r}(1 - \frac{1}{ikr}) (\vec{n} \times \vec{d}) \\
+\vec{E} = \frac{e^{ikr}}{r} k^2 (\vec{n} \times \vec{d}) \times \vec{n} + (3\vec{n}(\vec{n}\cdot \vec{d}) - \vec{d})(\frac{1}{r^3} - \frac{ik}{r^2})e^{ikr}
+\end{align}
+wobei $\vec{n}$ der Einheitsvektor zum Ortsvektor $\vec{r}$ ist. 
+\begin{enumerate}
+\item Leiten Sie die Näherung für das elektrische und magnetische Feld in der Nahzone her.
+\item Vergleichen Sie beide Felder. Begründen Sie, welches Feld dominant ist. 
+\item Welche zwei weiteren Zonen neben der Nahzone gibt es?
+\end{enumerate}
+Erläutern Sie kurz die Eigenschaften der Felder in den beiden Zonen. 
+\section{Kurzfragen 2 (Modul IIIa)}
+\begin{enumerate}
+\item Erläutern Sie kurz die Ursache dafür, dass der Himmel blau ist. 
+\item Skizzieren und beschreiben Sie (kurz) das Beugungsbild hinter einer quadratischen Lochblende. 
+\item Notieren und erläutern Sie die beiden Terme in der Euler-Gleichung, die Magnetfelder beinhalten. 
+\item Beschreiben und benennen Sie eine transversale Welle im Rahmen der Magnetohydrodynamik. 
+\end{enumerate}
+\end{document}
+

@@ -1,0 +1,371 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+/*--- BODY --------------------------------------------------*/
+
+body {
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size:18px;
+  background-color:#ffffff;
+}
+
+a {
+  color:#aa4433;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#aa4433;
+  text-decoration: none;
+}
+
+/*--- HEADER ------------------------------------------------*/
+
+#header {
+  background: #D6D6D6 url(../img/tilt1.png) no-repeat;
+  height:90px;
+  border-bottom:4px solid #606060;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+#header {
+  background: #D6D6D6 url(../img/tilt1.png) no-repeat;
+  height:90px;
+  border-bottom:4px solid #606060;
+  width:1135px;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#header {
+  background: #D6D6D6 url(../img/tilt1.png) no-repeat;
+  height:90px;
+  border-bottom:4px solid #606060;
+  width:1135px;
+}
+}
+
+#headercontent {
+  color:#606060;
+  margin-left:200px;
+  padding: 14px 0px 0px 30px;
+  background-color:#D6D6D6;
+  height:70px;
+}
+
+#headercontent .light {
+  color:#fff;
+  font-size:32px;
+  font-weight:bold;
+}
+
+#headercontent .light-small {
+  color:#fff;
+  font-size:24px;
+  font-weight:bold;
+}
+
+
+#headercontent .dark {
+    color:#606060;
+    font-size:32px;
+    font-weight:bold;
+}
+
+#headercontent a {
+    color:#606060;
+}
+
+/*--- NAVIGATION --------------------------------------------*/
+
+#navigation {
+    color: #fff;
+    background:url('../img/tilt2.png') #99BDE2;	
+    padding:30px 10px 8000px 10px; 
+    width:180px;
+    float:left;
+}
+
+#navigation ul {
+    text-align:left;
+    list-style:none;
+}
+
+
+#navigation ul li {
+    font-size:21px;
+    font-weight:normal;
+    margin-bottom:1px;
+}
+
+#navigation ul li a {
+    padding-left:5px;  
+    line-height:28px;
+    color:#fff;
+    text-decoration:none;
+    padding-right:4px;
+}
+
+#navigation ul li a.sub {
+    padding-left:15px;  
+    color:#E6E6E6;
+}
+
+#navigation ul li:hover {
+    color:#aa4433;
+}
+
+#navigation ul li:hover a {
+    color:#aa4433;
+}
+
+#navigation ul li.spacer {
+    padding-top:110px;
+    margin-top:110px;
+}
+
+#navigation ul li.external {
+    padding-right:10px;  
+    text-align:right;
+}
+
+#navigation ul li.external a {
+    color:#E6E6E6;
+}
+
+#navigation ul li.external:hover a {
+    color:#aa4433;
+}
+
+/*--- CONTENT -----------------------------------------------*/
+
+#container {
+}
+
+#content {
+  color:#606060;
+  width:900px;
+  margin-left:200px;
+  padding:30px 10px 20px 25px;
+}
+
+#content h1 {
+    color:#606060;
+    font-size:22px;
+    letter-spacing:0px;
+    padding-bottom:5px;
+    margin-bottom:20px;
+    border-bottom:1px dotted #606060;
+}
+
+#content h2 {
+    margin:20px 0 10px 0;
+    font-size:20px;
+}
+
+#content h3 {
+    margin:20px 0 10px 0;
+    font-size:16px;
+}
+
+#content hr {
+    border: none;
+    border-bottom:1px dotted #606060;
+}
+
+#content ul, ol {
+    list-style-position:outside;
+    margin:20px 0 10px 20px;
+}
+
+#content ul li, ol li {
+    margin:2px 2px 10px 2px;
+    padding-left:0px;
+}
+
+#content ul li .code {
+    font-family:Courier;
+    font-size:15px;
+    background-color:#efefef; 
+    margin:10px 10px 10px 10px;
+    padding:8px 8px 8px 8px;
+}
+
+#content ul li .light {
+  color:#cccccc;
+}
+
+#content ul li .light a {
+  color:#606060;
+}
+
+#content ul li .other_pub {
+  font-size:15px;
+  color:#A0A0A0;
+}
+
+#content ul .toggle_switch {
+  color:#A0A0A0;
+}
+
+#content ul .toggle_switch a {
+  color:#606060;
+}
+
+#content ul .recommended {
+   list-style-image:url('../img/triangle12.png');
+}
+
+#content ul li .citations {
+    font-size: small;
+    color: green;
+}
+
+#content ul li .code-tiny {
+    font-family:Courier;
+    font-size:12px;
+    background-color:#efefef;
+    margin:10px 10px 10px 10px;
+    padding:8px 8px 8px 8px;
+}
+
+span.caption {
+    font-weight:bold;
+}
+
+span.info {
+    /*  font-style:italic;*/
+}
+
+#content p {
+	line-height:1.5em;
+	margin-bottom:1.5em;
+}
+
+th {
+    text-align:left;
+    padding:8px 4px 8px 4px;
+    border-bottom:1px solid #888;
+}
+
+td {
+    text-align:left;
+    padding:8px 4px 8px 4px;
+    border-bottom:1px solid #ccc;
+}
+
+#content .toggle_switch {
+  color:#A0A0A0;
+}
+
+#content .toggle_switch a {
+  color:#606060;
+}
+
+
+/*--- CONTENT / IMAGES -----------------------------------------------*/
+
+#content img.right {
+    float: right;
+    margin-left: 0.75em;
+}
+
+#content img.right2 {
+    float: right;
+    margin: 0.75em;
+}
+
+#content img.right3 {
+    float: right;
+    margin-left: 1.75em;
+    margin-bottom:  1em;
+    clear: right;
+    clear: bottom;
+}
+
+#content img.right4 {
+    float: right;
+    margin-left: 1.75em;
+    margin-right: 1.25em;
+    margin-bottom:  1em;
+    vertical-align: bottom;
+}
+
+#content img.left {
+    float: left;
+    margin-right: 0.75em;
+}
+
+#content img.left2 {
+    float: left;
+    margin-right: 1.75em;
+}
+
+#content img.framed_right {
+    float: right;
+    margin-left: 0.75em;
+    border: 1px solid #CFCFCF;
+}
+
+#content img.framed_left {
+    float: left;
+    margin-right: 1.75em;
+    border: 1px solid #CFCFCF;
+}
+
+#content img.framed {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    border: 1px solid #CFCFCF;
+}
+
+
+#content img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*--- ANNOUNCEMENTS -----------------------------------------------*/
+
+div.announcement {
+    width:860px;
+    padding: 15px 15px 15px 15px;
+    margin-left: 20px;
+    overflow:auto;
+    border:1px solid #ccc;
+    background: #EEEEEE
+}
+
+/*--- GROUP MEMBERS -----------------------------------------------*/
+
+div.groupMember {
+    width:860px;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    overflow:auto;
+    border-bottom:1px solid #ccc;
+}
+
+div.groupMember img {
+    float:left;
+    margin-right:20px;
+    border:1px solid #555;
+}
+
+.groupMemberContact {
+    
+}
+
+.groupMemberResearch {
+    margin-top:10px;
+    padding-top:10px;
+}
+
